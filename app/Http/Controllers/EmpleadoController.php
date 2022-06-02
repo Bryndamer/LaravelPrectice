@@ -44,5 +44,11 @@ class EmpleadoController extends Controller
         $new_empleado = Empleado::destroy($request->id);
 
     }
+
+    public function delete2(Request $request){
+
+        $new_empleado = Empleado::destroy($request->id)
+
+    }
     
 }
