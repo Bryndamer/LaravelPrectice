@@ -3,7 +3,7 @@
 @section("body")
 	<div class="row">
 		<div class="col-12 text-center">
-			<h1>Modulo de empleados</h1>
+			<h1>Modulo de empleados 12</h1>
 		</div>
 	</div>
 	<form id="frmEmpleado">
