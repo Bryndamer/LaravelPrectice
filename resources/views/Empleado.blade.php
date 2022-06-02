@@ -1,6 +1,11 @@
 @extends("layout.front")
 @section("title", "Empleados vergas")
 @section("body")
+	<div class="row">
+		<div class="col-12 text-center">
+			<h1>Modulo de empleados</h1>
+		</div>
+	</div>
 	<form id="frmEmpleado">
 		@csrf
 		<input type="hidden" id="txtId" name="txtId" value="0">
